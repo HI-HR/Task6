@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="10dp"
+    android:paddingTop="5dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="5dp"
+    android:background="@drawable/selector_item">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background"
+        app:shapeAppearanceOverlay="@style/circleImageStyle" />
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ellipsize="end"
+        android:text="title"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/iv_img" />
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_toRightOf="@id/iv_img"
+        android:layout_marginLeft="10dp"
+        android:ellipsize="end"
+        android:text="这是一个内容"
+        android:maxLines="3"
+        android:textSize="16sp"/>
+
+
+
+
+</RelativeLayout>
