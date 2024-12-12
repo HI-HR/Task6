@@ -35,7 +35,7 @@
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="RecyclerView"
+        android:text="ViewPager2"
         android:textAllCaps="false"
         app:layout_constraintTop_toBottomOf="@+id/btn_main_rv"
         android:background="@drawable/selector_btn"
