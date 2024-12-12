@@ -1,4 +1,4 @@
-package com.example.task6;
+package com.example.task6.Fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,6 +10,10 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.task6.Adapter.RvAdapter;
+import com.example.task6.Data;
+import com.example.task6.R;
 
 import java.util.ArrayList;
 

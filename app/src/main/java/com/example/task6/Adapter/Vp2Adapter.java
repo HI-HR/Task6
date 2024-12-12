@@ -1,4 +1,4 @@
-package com.example.task6;
+package com.example.task6.Adapter;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;

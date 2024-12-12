@@ -1,4 +1,4 @@
-package com.example.task6;
+package com.example.task6.Adapter;
 
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -9,6 +9,10 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.task6.Data;
+import com.example.task6.PhotoActivity;
+import com.example.task6.R;
 
 import java.util.List;
 

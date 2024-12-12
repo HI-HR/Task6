@@ -1,4 +1,4 @@
-package com.example.task6;
+package com.example.task6.Fragment;
 
 import android.os.Bundle;
 
@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.task6.R;
 
 public class ThirdFragment extends Fragment {
 

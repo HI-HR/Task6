@@ -2,15 +2,16 @@ package com.example.task6;
 
 import android.os.Bundle;
 
-import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager2.widget.ViewPager2;
 
+import com.example.task6.Adapter.FragmentInterface;
+import com.example.task6.Adapter.Vp2Adapter;
+import com.example.task6.Fragment.FirstFragment;
+import com.example.task6.Fragment.SecondFragment;
+import com.example.task6.Fragment.ThirdFragment;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
